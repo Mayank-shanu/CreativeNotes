@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayankjain.creativenotes.display_update.displayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#757575"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/search_icon"
+                android:minHeight="40dp"
+                android:minWidth="40dp"
+                android:id="@+id/search_imageView"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                android:maxWidth="45dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/type_to_search"
+                android:visibility="gone"
+                android:id="@+id/search_editText"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:background="#d7cccb"
+                />
+
+        </LinearLayout>
+        <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_display_fragment_listView"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="13dp"
+        android:dividerHeight="13dp"
+        android:background="#757575"
+        android:divider="#757575"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/main_display_fragment_no_content_linearLayout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no data to display"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Related To Notes">
+        <menu>
+
+        <item
+            android:id="@+id/nav_Urgent"
+            android:icon="@drawable/alarm"
+            android:title="Urgent"
+            />
+
+        <item
+            android:id="@+id/nav_Favourite"
+            android:icon="@drawable/favourite"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_color"
+            android:icon="@drawable/colors"
+            android:title="Colors" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate with us">
+        <menu>
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share this app" />
+        </menu>
+    </item>
+
+</menu>

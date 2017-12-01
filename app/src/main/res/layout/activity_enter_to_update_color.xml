@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayankjain.creativenotes.update_color_dataBase.enter_to_update_color">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/display_color_to_select"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:paddingTop="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hash"
+                android:minHeight="30dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="RRGGBB"
+                android:maxLength="6"
+                android:id="@+id/editText_color_to_select"
+                android:minHeight="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="25dp"
+                android:minWidth="25dp"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                android:gravity="center"
+                android:id="@+id/button_color_to_select"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/name_color_to_select"
+            android:hint="@string/enter_name_of_color"
+            />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

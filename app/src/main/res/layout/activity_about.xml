@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayankjain.creativenotes.about.aboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d7cccb">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="15dp"
+            android:text="ABOUT"
+            android:id="@+id/about"
+            android:gravity="center"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about"
+            android:gravity="center"
+            android:id="@+id/version"
+            android:text="Creative Notes VERSION 1.0"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:text="Feel free to share your experience at \n jmayank615@gmail.com"
+            android:id="@+id/suggestion"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="CREATED BY: \n MAYANK JAIN"
+            android:textSize="25sp"
+            android:textColor="#3e2723"
+            android:gravity="center"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
